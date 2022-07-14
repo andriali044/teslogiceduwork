@@ -1,17 +1,21 @@
-var y = 4;
-console.log(y);
 
-var z = 20;
-console.log(z)
+var angkar = 4;
 
-var x = 39;
-console.log(x)
-
-
-
-var n = 104;
-var i = 100;
-for(var i = 0; i<100; i++){
-    console.log(i);
+if(angkar === 4){
+   console.log('empat');
 }
-console.log(i);
+var angkar = 20;
+
+if(angkar === 20){
+   console.log('duapuluh');
+}
+var angkar = 39;
+
+if(angkar === 39){
+   console.log('tiga puluh sembilan');
+}
+var angkar = 104;
+
+if(angkar === 104){
+   console.log('silahkan masukan bilangan 1-100');
+}

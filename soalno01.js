@@ -1,22 +1,38 @@
-//soal n0 1
-let angka = 4;
-angka *= 3;
-angka *= 2;
-angka *= 1;
+//1. Apabila terdapat int = 4, maka outputnya 24 (prosesnya : 4*3*2*1)
+int = 4;
+let hasil1 = 1;
+for (let i = 1; i <= int; i++) {
+  hasil1 *= i;
+}
+console.log(hasil1);
 
-console.log(angka);
+//2. Apabila terdapat int = 8, maka outputnya 40320 (prosesnya : 8*7*6*5*4*3*2*1)
+int = 8;
+let hasil2 = 1;
+for (let i = 1; i <= int; i++) {
+  hasil2 *= i;
+}
+console.log(hasil2);
+
+// //soal n0 1
+// let angka = 4;
+// angka *= 3;
+// angka *= 2;
+// angka *= 1;
+
+// console.log(angka);
 
 
-let angka1 = 8;
-angka1 *= 7;
-angka1 *= 6;
-angka1 *= 5;
-angka1 *= 4;
-angka1 *= 3;
-angka1 *= 2;
-angka1 *= 1;
+// let angka1 = 8;
+// angka1 *= 7;
+// angka1 *= 6;
+// angka1 *= 5;
+// angka1 *= 4;
+// angka1 *= 3;
+// angka1 *= 2;
+// angka1 *= 1;
 
-console.log(angka1);
+// console.log(angka1);
 
 //soal no 2
 
